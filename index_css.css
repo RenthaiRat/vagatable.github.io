@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+                              /* Container Menu ក្បាលទំព័រ*/
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 10px 150px;
+    box-sizing: border-box;
+    background-color: rgb(255, 0, 0);
+    padding-left: 20px;
+    
+}
+
+
+
+
+
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    float: right;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+
+
+
+nav ul li a{
+    text-align: center;
+    font-family: 'Kantumruy Pro', sans-serif;
+    line-height: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 6px 15px;
+    text-decoration: none;
+    font-size: 12pt;
+    text-transform: uppercase;
+    
+
+   
+}
+
+
+
+nav ul li a:hover{
+    color: rgb(0, 149, 255);
+}
+
+ nav ul li a:hover{
+    
+    background: rgb(76, 74, 74);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+
+
+
+
+                /* LOGO Image */
+
+
+
+.image{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 5px;
+    left: 50px;
+}
+
+
+
+.image:hover{
+    background-color: rgb(62, 171, 171);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+
+}
+
+
+
+
+
+.image img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+}
+
+
+
+
+           /* Search In Nav */
+
+
+
+.icon_search{
+    
+    padding-left: 102%;
+    padding-top: 15px;
+    color: white;
+    font-size: 16pt;
+    cursor: pointer;
+    
+    
+}
+
+
+
+.icon_search:hover{
+    color: rgb(179, 176, 176);
+}
+
+
+
+.container{
+   margin: 75px 60px ;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(193, 193, 193);
+    
+}
+
+
+
+.top_contain{
+   
+    width: 20%;
+    height: 40px;
+    background-color: red;
+    
+}
+
+
+.top_contain h3{
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 0pc 0px 15px;
+    color: white;
+   text-align: center;
+    font-size: 12pt;
+    
+}
+
+
+
+
+.header{
+    margin: 5px 0px ;
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+}
+
+
+.top_image{
+    width: 50%;
+    height: 350px;
+    background-color: yellow;
+    float: left;
+}
+
+
+.img_left{
+    
+    margin: -350px 560px;
+    float: left;
+    width: 99%;
+    height: 200px;
+    background-color: violet;
+} 
+
+
+.img_top{
+    /* margin: 0px -0px; */
+    float: left;
+    margin-top: 2px;
+    width: 49%;
+    height: 149px;
+    background-color: rgb(81, 4, 205);
+}
+
+.img_top1{
+    float: left;
+    margin: -149px 275px;
+    width: 50%;
+    height: 149px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
